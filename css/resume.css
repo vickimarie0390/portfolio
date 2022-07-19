@@ -5,17 +5,17 @@
  */
 
 :root {
-  --colorA:#302242; /*beside bar and featured text*/
-  --colorB:#848e96;
-  --colorC:#8982c9;
-  --colorD:#6c458b; /*navigation links*/
-  --colorE:#4682B4; /*border color*/
+  --colorA:#270e27; /*beside bar and featured text*/
+  --colorB:#FF1493;
+  --colorC:		#FF1493;
+  --colorD:	#2F4F4F; /*navigation links*/
+  --colorE:#FF1493; /*border color*/
 }
 
 body {
   font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   padding-top: 54px;
-  color: #302242;
+  color: #27182e;
   
 }
 
@@ -32,10 +32,10 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Avanta Garde', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: 'Rockwell', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   font-weight: 500;
   text-transform: uppercase;
-  color: #6b7bb4;
+  color: #FF1493;
 }
 
 h1 {
@@ -67,7 +67,7 @@ p.lead {
   display: inline-block;
   height: 3.5rem;
   width: 3.5rem;
-  background-color: #6b7bb4;
+  background-color: #FF1493;
   color: rgb(247, 251, 255) !important;
   border-radius: 100%;
   text-align: center;
@@ -99,7 +99,7 @@ p.lead {
 }
 
 #sideNav .navbar-toggler:focus {
-  outline-color: #393c5a;
+  outline-color: #FF1493;
 }
 
 @media (min-width: 992px) {
@@ -121,7 +121,7 @@ p.lead {
   #sideNav .navbar-brand .img-profile {
     max-width: 20rem;
     max-height: 20rem;
-    border: 1rem outset #345f83;
+    border: 0.5rem double #FFE4E1;
   }
   #sideNav .navbar-collapse {
     display: flex;
@@ -147,7 +147,7 @@ p.lead {
     text-decoration:underline;
     text-decoration-thickness: 10px;
   }
-}
+
 
 section.resume-section {
   padding-top: 5rem !important;
@@ -238,4 +238,7 @@ iframe{
   max-width: 100%;
   overflow-x:scroll;
   overflow-y:scroll;
+}
+
+
 }
